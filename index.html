@@ -8,14 +8,22 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="icon" href="images/favicon-16x16.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
-   
+<link rel="stylesheet" href="lib/animate.css">
+   <title>Tanvi | Portfolio</title>
 </head>
   <body>
+
+     <!-- pre loader -->
+     <div class="loader-container">
+        <img draggable="false" src="images/preloader.gif" alt="">
+    </div>
+
     <nav class=" navbar navbar-expand-lg sticky fixed-top  r-nav">
         <div class="container">
             <a href="#" class="navbar-brand">TANVI</a>
@@ -25,25 +33,23 @@
             <div class="collapse navbar-collapse" id="navbarId">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="" class="nav-link">Home</a>
+                        <a href="#home" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">About</a>
+                        <a href="#about" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Skills</a>
+                        <a href="#exp-id" class="nav-link">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Education</a>
+                        <a href="#edu-id" class="nav-link">Education</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Work</a>
+                        <a href="#work" class="nav-link">Work</a>
                     </li>
+
                     <li class="nav-item">
-                        <a href="" class="nav-link">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">Conatct</a>
+                        <a href="#contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -53,25 +59,342 @@
        <div class="container-fluid header-content">
         <div class="row">
             <div class="col text-center">
-                <div class="content-box">
-                    <h4>Welcome</h4>
-                    <h1>Hi! I'm Tanvi Jain</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="#" class="btn">RESUME</a>
+                <div class="content-box animated fadeInUp">
+                    <h4 style="font-weight: bold;">Welcome</h4>
+                    <h1>I'm <span class="element" style="color:crimson;font-weight: bold;">Tanvi Jain</span> </h1>
+                    
+                        <h6 style="color: #000;font-size: 20px;font-weight: 600 ;font-style:oblique;">Let's create something exceptional together...!</h6>
+                    
+                    <a href="https://drive.google.com/file/d/1uiFxvUAWMt8sddRxCFWer0dqUR4A7OK2/view?usp=sharing" class="btn">RESUME</a>
                 </div>
             </div>
         </div>
        </div> 
     </header>
+  <section class="about r-p" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="images/Tanvi BGR.png" class="img-fluid img-thumbnail" alt="profile picture" >
+            </div>
+            <div class="col-lg-6 mt-5 mt-lg-0">
+                <h2>About Me</h2>
+                <h4>Hey! <span style="color:#E96F85"></span>I'm Tanvi Jain</h4>
+                <h5 style="font-weight: 600;"> a passionate Web Developer | Devops & ML Enthusiast</h5>
+                <p>Second-Year CS Undergraduate Student At Hindustan College Of Science & Technology, Mathura.
+                    I'm passionate about making a positive impact through personal projects, internships, hackathons, and other experiences.
+                    I take pride in my role as the organizing head of the literary club on my campus.
+                    I'm driven by the belief in community building and the desire to empower newcomers.
 
-    <section style="width: 100%; height: 100vh;"></section>
-    <section style="width: 100%; height: 100vh;"></section>
+                </p>
+                <p><span style="color: blue; font-weight: 500;">Age:</span>19</p>
+                <p><span style="color: blue; font-weight: 500;">Location: </span>📍Agra, India-282010</p>
+                <p><span style="color: blue; font-weight: 500;">Languages:</span>👩‍💻 Proficient in Python, Java, C++, C, HTML, CSS, JavaScript</p>
+                <p><span style="color: blue; font-weight: 500;">Skills:</span>💻 Web Development, DSA, Microsoft Azure, ML, jQuery, Google Cloud. </p>
+                </p>
+                
+                <div>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="https://www.blogger.com/profile/03382318061972659234"><i class="fa-brands fa-blogger"></i></a>
+                        <li class="list-inline-item"><a href="https://www.salesforce.com/trailblazer/tanvijain0985"><i class="fa-brands fa-salesforce"></i></a>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/itanvi-jain-/"><i class="fa-brands fa-linkedin"></i></a>
+                        <li class="list-inline-item"><a href="https://learn.microsoft.com/en-us/users/tanvijain-2612/"><i class="fa-brands fa-microsoft"></i></a>
+                                                                 
+                        </li>
+                    </ul>
+                </div>
+        
+            </div>
+    </div>
+  </section>
+  <section class="exp-class" id="exp-id">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-center align-items-center ">
+                <h3>My Skills</h3>
+            </div>
+            <div class="col-md-6">
+                <label>Html</label>
+                <div class="progress">
+                    <div class="progress-bar" role="progress-bar " style="width: 20%" aria-valuemin="0" aria-valuemax="100">95%</div>
+                </div>
+                <label>Css</label>
+                <div class="progress">
+                    <div class="progress-bar" role="progress-bar " style="width: 20%" aria-valuemin="0" aria-valuemax="100">85%</div>
+                </div>
+                <label>JavaScript</label>
+                <div class="progress">
+                    <div class="progress-bar" role="progress-bar " style="width: 20%" aria-valuemin="0" aria-valuemax="100">75%</div>
+                </div>
+                <label>Reactjs</label>
+                <div class="progress">
+                    <div class="progress-bar" role="progress-bar " style="width: 20%" aria-valuemin="0" aria-valuemax="100">40%</div>
+                </div>
+                <label>C</label>
+                <div class="progress">
+                    <div class="progress-bar" role="progress-bar " style="width: 20%" aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+                <label>Java</label>
+                <div class="progress">
+                    <div class="progress-bar" role="progress-bar " style="width: 20%" aria-valuemin="0" aria-valuemax="100">65%</div>
+                </div>
+                <label>Python</label>
+                <div class="progress">
+                    <div class="progress-bar" role="progress-bar " style="width: 20%" aria-valuemin="0" aria-valuemax="100">50%</div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+  </section>
+  <section class="education-class bg-sec r-p" id="edu-id">
+ <div class="container text-center">
+    <div class="row">
+        <div class="col">
+            <div class="col">
+            <h2><i class="fa-solid fa-graduation-cap"></i>My Education</h2>
+            <p>Education is the foundation upon which we build our future.</p>
+        </div>
+       </div>
+      </div>
+      <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa-solid fa-user-graduate"></i>
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">High School</h5>
+                    <h6>2018-2019</h6>
+                    <div class="edu-border"></div>   
+                    <p class="card-text">Shivalik Cambridge College </p>
+                    <p class="card-text">Percentage : 96.8%</p>
+                    <p class="card-text-2">Completed</p>
+                    
+                </div>
+            </div>
+          </div> 
+          <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa-solid fa-user-graduate"></i>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Intermediate</h5>
+                    <h6>2020-2021</h6>
+                    <div class="edu-border"></div>   
+                    <p class="card-text">Shivalik Cambridge College</p>
+                    <p class="card-text">Percentage : 90%</p>
+                    <p class="card-text-2">Completed</p>
+                    
+                </div>
+            </div>
+        </div>
+          
+          <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa-solid fa-user-graduate"></i>
+                    
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Bachelors of Technology</h5>
+                    <h6>2021-2025</h6>
+                    <div class="edu-border"></div>   
+                    <p class="card-text">Dr APJ Abdul Kalam Technical University(AKTU)</p>
+                    <p class="card-text">CGPA : 8.91(3rd Sem)<br><small>Currently Pursuing</small></p>
+                </div>
+            </div>
+        </div>
+
+      </div>
+ </div>
+  </section>
+
+  <!--Work-->
+  <section class="work r-p" id="work">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col mb-5">
+                <h2><b>Projects</b></h2>
+                <p>What I have created</p>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row filter-container mx-auto">
+                <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" dat-category="1,2">
+                   <div>
+                    <a href="https://itstanvii.github.io/My_Website/">
+                    <img src="images/w1.png" class="img-fluid" alt="Login Website">
+                </a>
+                   </div> 
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" dat-category="4,2">
+                    <div>
+                        <a href="https://itstanvii.github.io/Portfolio/">
+                     <img src="images/w2.png" class="img-fluid" alt="">
+                    </a>
+                    </div> 
+                 </div>
+
+                 <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" dat-category="1,4,2">
+                    <div>
+                        <a href="">
+                     <img src="images/w3.png" class="img-fluid" alt="">
+                    </a>
+                    </div> 
+                 </div>
+
+                 <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" dat-category="4,3,2">
+                    <div>
+                        <a href="https://itstanvii.github.io/Quiz_App/">
+                     <img src="images/w4.png" class="img-fluid" alt="">
+                        </a>
+                    </div> 
+                 </div>
+
+                 <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" dat-category="1,4,2">
+                    <div>
+                        <a href="">
+                     <img src="images/w5.png" class="img-fluid" alt="">
+                    </a>
+                    </div> 
+                 </div>
+                 <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" dat-category="1,4,2">
+                    <div>
+                        <a href="https://github.com/itstanvii">
+                     <img src="images/view-all-templates.avif" class="img-fluid" alt="">
+                    </a>
+                    </div> 
+                 </div>
+            </div>
+
+        </div>
+    </div>
+  </section>
+
+  <!--Experience
+  <section class="exp-class r-p bg-sec" id="exp-id">
+    <div class="container text-center">
+    <div class="row">
+     <div class="col">
+         <h2>Experience</h2>
+         <p>Love to Experience new things</p>
+     </div>
+    </div>
+    <div class="row">
+     <div class="col">  
+         <div class="owl-carousel owl-theme">    
+          <div class="item">
+             <div class="text-center test-item">
+                 <i class="fas fa-quote-left"></i>
+                 <div><img src="images/t1.png" class="mx-auto test-img rounded-circle " alt=""></div>
+                 <p class="text-muted">Lorem ipsum dolor sit amet co</p>
+                 <p class="test-name">Jesii walter,ceo</p>
+             </div>
+          </div>
+ 
+          <div class="item">
+             <div class="text-center test-item">
+                 <i class="fas fa-quote-left"></i>
+                 <div><img src="images/t2.png" class="mx-auto test-img rounded-circle " alt=""></div>
+                 <p class="text-muted">Lorem ipsum dolor sit amet co</p>
+                 <p class="test-name">Jesii walter,ceo</p>
+             </div>
+          </div>
+ 
+          <div class="item">
+             <div class="text-center test-item">
+                 <i class="fas fa-quote-left"></i>
+                 <div><img src="images/t3.png" class="mx-auto test-img rounded-circle " alt=""></div>
+                 <p class="text-muted">Lorem ipsum dolor sit amet co</p>
+                 <p class="test-name">Jesii walter,ceo</p>
+             </div>
+          </div>
+ 
+          <div class="item">
+             <div class="text-center test-item">
+                 <i class="fas fa-quote-left"></i>
+                 <div><img src="images/t4.png" class="mx-auto test-img rounded-circle " alt=""></div>
+                 <p class="text-muted">Lorem ipsum dolor sit amet co</p>
+                 <p class="test-name">Jesii walter,ceo</p>
+             </div>
+          </div>
+         </div>
+     </div>
+    </div>
+</div>
+   </section>
+-->
+
+  <section class="contact r-p bg-sec" id="contact">
+    <div class="container text-center ">
+        <div class="row">
+            <div class="col">
+                <h2>Reach me out here</h2>
+                <p>Let's Connect and Collaborate</p>
+                <p>Feel free to contact me</p>
+            </div>
+        </div>
+                <div class="row mt-5">
+                    <div class="col">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                  <input type="text" class="form-control " placeholder="Name">  
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control " placeholder="Phone">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="7" placeholder="Your Message" style="resize:none;"></textarea>
+                            </div>
+                            <button type="submit" class="btn r-btn float-right">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            
+        </div>
+  </section>
+  
+
+  <!--footer-->
+  <footer>
+    <div class="container h-100 d-flex align-items-center justify-content-center">
+        <div class="row">
+            <div class="col">
+                <div class="r-icon text-center mt-3">
+                    <ul>
+                      <li class="list-inline-item"><a href="mailto: tanvijain1511@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+                      <li class="list-inline-item"><a href="https://twitter.com/tanvijain1511"><i class="fa-brands fa-twitter"></i></a></li>
+                      <li class="list-inline-item"><a href="https://github.com/itstanvii"><i class="fab fa-github"></i></a></li>
+                      <li class="list-inline-item"><a href="https://www.linkedin.com/in/itanvi-jain-/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <p class="text-muted" style="font-size:14px;">&copy;copyright Tanvi | 2023 All Rights Reserved</p>
+                <p class="text-muted text-center " style="font-size:14px;">Designed By Tanvi Jain</p>
+            </div>
+        </div>
+    </div>
+  </footer>
+
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="lib\jquery.filterizr.min.js"></script>
+    <script src="lib\jquery.waypoints.min.js"></script>
     <script src="js/app.js"></script>  
 </body>
 </html>
